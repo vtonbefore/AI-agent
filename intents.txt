@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! I'm your HR Assistant. How can I help you today?", "Hi there! What HR question do you have?"]
+    },
+    {
+      "tag": "leave_policy",
+      "patterns": ["Tell me about leave policy", "What is the leave entitlement?", "How many leave days do I get?"],
+      "responses": ["Employees receive 21 paid leave days annually."]
+    },
+    {
+      "tag": "apply_leave",
+      "patterns": ["How do I apply for leave?", "Where can I request a leave?", "Leave application steps"],
+      "responses": ["Log in to the HR portal, go to 'Leaves', and submit a request."]
+    },
+    {
+      "tag": "office_hours",
+      "patterns": ["What are the working hours?", "When do we open?", "What's the closing time?"],
+      "responses": ["Our working hours are from 9:00 AM to 5:00 PM, Monday to Friday."]
+    },
+    {
+      "tag": "update_info",
+      "patterns": ["How can I update my address?", "Change my contact details", "Update personal information"],
+      "responses": ["Log in to your employee portal and go to 'Profile > Edit' to update your information."]
+    },
+    {
+      "tag": "salary_info",
+      "patterns": ["When is salary paid?", "What date is payroll?", "Payslip access", "How do I check my salary?"],
+      "responses": ["Salaries are processed by the 28th of every month. You can view payslips in the HR system."]
+    },
+    {
+      "tag": "benefits",
+      "patterns": ["What benefits do employees get?", "Health insurance details", "Company benefits?"],
+      "responses": ["We provide health insurance, paid leave, training programs, and performance bonuses."]
+    },
+    {
+      "tag": "training",
+      "patterns": ["Are there training opportunities?", "Employee training programs?", "Upskilling support?"],
+      "responses": ["Yes, we offer regular training sessions and support for online courses."]
+    },
+    {
+      "tag": "performance_review",
+      "patterns": ["When is the next performance review?", "Performance evaluation schedule", "Annual review?"],
+      "responses": ["Performance reviews are conducted every June and December."]
+    },
+    {
+      "tag": "recruitment",
+      "patterns": ["Are there job openings?", "How to refer someone?", "Hiring process?"],
+      "responses": ["You can check internal job openings on the HR portal. Referrals are submitted via email."]
+    },
+    {
+      "tag": "internship",
+      "patterns": ["Are internships available?", "Student internship?", "Apply for internship?"],
+      "responses": ["Internship positions are announced in June and December. Apply via the Careers section."]
+    },
+    {
+      "tag": "promotion_policy",
+      "patterns": ["How do promotions work?", "Promotion criteria?", "Career growth opportunities?"],
+      "responses": ["Promotions are based on performance, skills, and open roles. Speak with your manager for more."]
+    },
+    {
+      "tag": "work_from_home",
+      "patterns": ["Is remote work allowed?", "Work from home policy?", "Can I work remotely?"],
+      "responses": ["We offer flexible work-from-home options for eligible roles. Manager approval is needed."]
+    },
+    {
+      "tag": "hr_contact",
+      "patterns": ["How do I contact HR?", "HR email?", "Reach out to HR?"],
+      "responses": ["You can contact HR at hr@yourcompany.com or visit the HR office on Floor 2."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "Thanks", "Talk to you later"],
+      "responses": ["Goodbye! Reach out anytime you need help."]
+    }
+  ]
+}
